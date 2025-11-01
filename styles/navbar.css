@@ -1,0 +1,45 @@
+
+:root {
+    --dark-green: #213722;
+    --light-green: #658C6E;
+    --violet: #CCBCC9;
+    --beige: #F4F2ED;
+    --light-black: #2C2C2C;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width:100%;
+    font-family: 'Spicy Rice',sans-serif;
+    background-color: var(--light-green);
+    color: var(--beige);
+    padding: 2%;
+    height : 15%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>a{
+    color: var(--beige);
+    text-decoration:none;
+}
+
+#menu{
+    font-size: 250%;
+    margin-right: 30%;
+}
+
+a:focus {
+  color: var(--violet);
+}
+
+a:hover {
+  color: var(--violet);
+}
+
+a:active {
+  color: var(--beige);
+}

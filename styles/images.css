@@ -1,0 +1,78 @@
+
+:root {
+    --dark-green: #213722;
+    --light-green: #658C6E;
+    --violet: #CCBCC9;
+    --beige: #F4F2ED;
+    --light-black: #2C2C2C;
+}
+
+
+.ligne-violette{
+    display : block;
+    margin : auto;
+}
+
+
+#maison_christine{
+    position:relative;
+}
+
+#berlin{
+    max-width:50rem;
+}
+
+.photos{
+    max-height: 20rem;
+}
+
+.photos_container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.long_stay_container .photos_timeline{
+    border-left: 0.5rem solid var(--dark-green);
+}
+
+.photos_timeline{
+    flex-basis:50%;
+    width:50%;
+    border-left: 0.5rem solid var(--violet);
+    padding:0% 0% 0% 5%
+}
+
+.circle {
+  top: 50%;
+  left: 40%;
+  width: 1rem ;  
+  height: 1rem;
+  background:var(--light-green);
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+}
+
+
+#moncercle{
+  background:var(--light-green);
+  position:relative;
+  z-index:1;
+  border-radius:50%;
+  width:1rem;
+  height:1rem;
+}
+
+.photos_timeline::before {
+  background:var(--light-green);
+  position:relative;
+  z-index:1;
+  border-radius:50%;
+  width:1rem;
+  height:1rem;
+  position: absolute;}
+
+
+  
