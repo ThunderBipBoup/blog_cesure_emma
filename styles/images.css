@@ -16,6 +16,8 @@
 
 #maison_christine{
     position:relative;
+    flex-basis:40%;
+    width:50%;
 }
 
 #berlin{
