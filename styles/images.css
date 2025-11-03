@@ -36,5 +36,10 @@
 }
 
 
-
-  
+/*phone */
+@media (max-width: 576px)
+{
+  .photos{
+    max-height: 8rem;
+  }
+}

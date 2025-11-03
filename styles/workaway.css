@@ -90,3 +90,28 @@ h3 {
     color: var(--light-green);
     font-weight: 24;
 }
+
+
+/*phone */
+@media (max-width: 576px)
+{
+    h1 {
+    font-size: 100%;
+    }
+
+    .paragraph-header{
+    font-size: 80%;
+    }
+
+    .anecdote{
+        font-size: 60%;
+    }
+
+    header{
+    flex-direction: column;
+    }
+    
+    .jour-container{
+    flex-direction:column;
+    }
+}

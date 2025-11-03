@@ -43,3 +43,12 @@ a:hover {
 a:active {
   color: var(--beige);
 }
+
+
+/*phone */
+@media (max-width: 576px)
+{
+  #menu{
+      font-size: 100%;
+  }
+}
