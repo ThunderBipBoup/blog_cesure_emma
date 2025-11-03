@@ -15,7 +15,7 @@
 
 
 .photo_header{
-    position:relative;
+    /* position:relative; */
     flex-basis:40%;
     width:50%;
 }
@@ -40,10 +40,6 @@
     max-height: 8rem;
     }
 
-    .photo_header{
-        max-width: 50%;
-    }
-
     .ligne-violette{
         max-width:100%;
     }
@@ -54,10 +50,6 @@
 {
     .photos{
     max-height: 10rem;
-    }
-
-    .photo_header{
-        max-width: 50%;
     }
 
     .ligne-violette{

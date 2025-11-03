@@ -8,7 +8,7 @@
 }
 
 nav {
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 1;
     width:100%;
@@ -25,6 +25,7 @@ nav {
 nav>a{
     color: var(--beige);
     text-decoration:none;
+    font-size: 150%;
 }
 
 #menu{
@@ -75,6 +76,6 @@ a:active {
     font-weight: lighter;
   }
   nav {
-    height: 12%;
+    height: 8%;
   }
 }
