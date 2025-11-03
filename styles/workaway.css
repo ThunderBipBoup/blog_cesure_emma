@@ -95,27 +95,20 @@ h3 {
 /*phone */
 @media (max-width: 576px)
 {
-    h1 {
-    font-size: 100%;
-    }
+    h1 {font-size: 100%;}
 
-    p{
-        font-size: 60%;
-    }
+    h2{font-size:120%}
+
+    h3{font-size:90%}
+
+    p{font-size: 60%;}
 
     .paragraph-header{
     font-size: 80%;
+    flex-basis:30%;
     }
 
-    .anecdote{
-        font-size: 60%;
-    }
+    .anecdote{font-size: 60%;}
 
-/*     header{
-    flex-direction: column;
-    } */
-
-    .jour-container{
-    flex-direction:column;
-    }
+    .jour-container{flex-direction:column;}
 }

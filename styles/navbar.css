@@ -49,9 +49,15 @@ a:active {
 @media (max-width: 576px)
 {
   #menu{
-    font-size: 90%;
+    font-size: 80%;
+    margin-right: 10%;
+    font-weight: lighter;
   }
   nav>a{
-    font-size: 80%;
+    font-size: 60%;
+    font-weight: lighter;
+  }
+  nav {
+    height:10%;
   }
 }

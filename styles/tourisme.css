@@ -45,6 +45,7 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .paragraph-header{
     font-family: "Roboto Condensed", sans-serif;
     color:var(--light-black);
@@ -56,4 +57,17 @@ p{
     font-family: 'Roboto Serif',serif;
     font-weight: 400;
     padding: 4%;
+}
+
+/*phone */
+@media (max-width: 576px)
+{
+    h1 {font-size: 100%;}
+
+    p{font-size: 60%;}
+
+    .paragraph-header{
+    font-size: 80%;
+    flex-basis:30%;
+    }
 }

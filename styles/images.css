@@ -26,13 +26,14 @@
 
 .photos{
     max-height: 20rem;
+    margin-bottom: 5%;
 }
 
 .photos_container{
     display:flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 5%;
+    flex-wrap: wrap;
 }
 
 
@@ -41,9 +42,6 @@
 {
     .photos{
     max-height: 8rem;
-    }
-    .photos_container{
-    flex-wrap: wrap;
     }
 
     .ligne-violette{
