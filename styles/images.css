@@ -40,6 +40,10 @@
     max-height: 8rem;
     }
 
+    .photo_header{
+        flex-basis:50%;
+    }
+    
     .ligne-violette{
         max-width:100%;
     }

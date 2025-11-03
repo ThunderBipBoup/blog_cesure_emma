@@ -71,9 +71,9 @@ p{
         margin-top:10%;
         margin-bottom:5%;}
 
-    .text-header{
+/*     .text-header{
         flex-basis:30%;
-        max-width: 30%;}
+        max-width: 30%;} */
 
     .paragraph-header{font-size: 80%;}
 }

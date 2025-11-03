@@ -97,7 +97,9 @@ h3 {
 {
     h1 {font-size: 100%;}
 
-    header{margin-top:10%;}
+    header{
+        margin-top:15%;
+        max-width: 100%;}
 
     h2{font-size:120%}
 
@@ -105,9 +107,9 @@ h3 {
 
     p{font-size: 60%;}
 
-    .text-header{
-        flex-basis:30%;
-        max-width: 30%;}
+/*     .text-header{
+        flex-basis:50%;
+        max-width: 50%;} */
 
     .paragraph-header{font-size: 80%;}
 
