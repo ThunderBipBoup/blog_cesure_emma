@@ -74,6 +74,7 @@ p{
 
      .text-header{
         flex-basis:50vw;
+        max-width: 50%;
         }
 
     .paragraph-header{font-size: 80%;}
