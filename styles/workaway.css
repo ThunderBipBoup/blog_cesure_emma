@@ -107,9 +107,7 @@ h3 {
 
     p{font-size: 60%;}
 
-/*     .text-header{
-        flex-basis:50%;
-        max-width: 50%;} */
+    .text-header{flex-basis:50%;}
 
     .paragraph-header{font-size: 80%;}
 
