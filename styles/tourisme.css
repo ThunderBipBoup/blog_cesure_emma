@@ -67,9 +67,13 @@ p{
 
     p{font-size: 60%;}
 
-    header{margin-top:10%;}
+    header{
+        margin-top:10%;
+        margin-bottom:5%;}
 
-    .text-header{flex-basis:30%;}
+    .text-header{
+        flex-basis:30%;
+        max-width: 30%;}
 
     .paragraph-header{font-size: 80%;}
 }

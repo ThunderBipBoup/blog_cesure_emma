@@ -146,8 +146,8 @@ a:active {
 @media (max-width: 576px)
 {
   h1{
-    font-size: 160%;
-    padding:10% 2% 2% 2%;
+    font-size: 150%;
+    padding:20% 2% 2% 2%;
   }
 
   h2{
