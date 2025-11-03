@@ -41,9 +41,9 @@
     }
 
     .photo_header{
-        flex-basis:50%;
+        flex-basis:50vw;
     }
-    
+
     .ligne-violette{
         max-width:100%;
     }

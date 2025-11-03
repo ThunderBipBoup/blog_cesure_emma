@@ -28,6 +28,7 @@ header{
     display: flex;
     flex-direction: row;
     background-color: var(--violet);
+    max-width: 100vw;
 }
 
 
@@ -107,7 +108,7 @@ h3 {
 
     p{font-size: 60%;}
 
-    .text-header{flex-basis:50%;}
+    .text-header{flex-basis:50vw;}
 
     .paragraph-header{font-size: 80%;}
 
