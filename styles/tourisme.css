@@ -81,12 +81,13 @@ p{
 /* landscape phone and tablet*/
 @media (min-width: 576px) and (max-width:992px)
 {
-    h1 {font-size: 150%;}
+    h1 {font-size: 200%;
+        padding-top:5%;}
 
     p{font-size: 70%;}
 
     header{
         margin-bottom:5%;}
 
-    .paragraph-header{font-size: 120%;}
+    .paragraph-header{font-size: 140%;}
 }

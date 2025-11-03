@@ -32,6 +32,11 @@
     flex-wrap: wrap;
 }
 
+#fin_header{
+    max-width:100%;
+    position:relative;
+    top:0.9%;
+}
 
 /*phone */
 @media (max-width: 576px)

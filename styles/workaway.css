@@ -121,7 +121,7 @@ h3 {
 /* landscape phone and tablet*/
 @media (min-width: 576px) and (max-width:992px)
 {
-    h1 {font-size: 150%;}
+    h1 {font-size: 200%;}
 
     h2{font-size:120%}
 
@@ -129,11 +129,9 @@ h3 {
 
     p{font-size: 70%;}
 
-    header{margin-bottom:5%;}
+    .paragraph-header{font-size: 140%;}
 
-    .paragraph-header{font-size: 120%;}
-
-    .anecdote{font-size: 80%;}
+    .anecdote{font-size: 100%;}
 
     .jour-container{flex-direction:column;}
 }
