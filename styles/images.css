@@ -14,14 +14,10 @@
 }
 
 
-#maison_christine{
+.photo_header{
     position:relative;
     flex-basis:40%;
     width:50%;
-}
-
-#berlin{
-    max-width:50rem;
 }
 
 .photos{

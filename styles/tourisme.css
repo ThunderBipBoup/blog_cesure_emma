@@ -25,6 +25,7 @@ html {
 
 header{
     margin-top:5%;
+    margin-bottom:4%;
     display: flex;
     flex-direction: row-reverse;
     background-color: var(--violet);
@@ -56,7 +57,7 @@ h1 {
 p{
     font-family: 'Roboto Serif',serif;
     font-weight: 400;
-    padding: 4%;
+    padding: 0% 4% 4% 4%;
 }
 
 /*phone */
@@ -66,8 +67,9 @@ p{
 
     p{font-size: 60%;}
 
-    .paragraph-header{
-    font-size: 80%;
-    flex-basis:30%;
-    }
+    header{margin-top:10%;}
+
+    .text-header{flex-basis:30%;}
+
+    .paragraph-header{font-size: 80%;}
 }
