@@ -41,7 +41,23 @@
     }
 
     .photo_header{
-        flex-basis:50vw;
+        max-width: 50%;
+    }
+
+    .ligne-violette{
+        max-width:100%;
+    }
+}
+
+/* landscape phone and tablet*/
+@media (min-width: 576px) and (max-width:992px)
+{
+    .photos{
+    max-height: 10rem;
+    }
+
+    .photo_header{
+        max-width: 50%;
     }
 
     .ligne-violette{

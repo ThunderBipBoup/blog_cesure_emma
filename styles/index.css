@@ -175,12 +175,43 @@ a:active {
   }
 }
 
-/* landscape phone
-@media (min-width: 576px)
+/* landscape phone and tablet*/
+@media (min-width: 576px) and (max-width:992px)
+{
+  h1{
+    font-size: 250%;
+    padding:18% 2% 2% 2%;
+  }
 
-/*tablet
+  h2{
+    font-size: 150%;
+  }
+
+  p{
+    font-size:80%
+  }
+
+  .place{
+    font-size: 180%;
+  }
+
+  .date{
+    font-size: 80%;
+  }
+  .short_stay_circle,.long_stay_circle {
+    width: 0.7rem ;  
+    height: 0.7rem;
+  }
+
+  .image{
+    border-left: 0.3rem solid var(--violet);
+  }
+}
+
+
+
+/* tablet
 @media (min-width: 768px)
 
 /*destop
-@media (min-width: 992px)
- */
+@media (min-width: 992px) */

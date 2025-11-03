@@ -69,13 +69,23 @@ p{
     p{font-size: 60%;}
 
     header{
-        margin-top:10%;
+        margin-top:15%;
         margin-bottom:5%;}
 
-     .text-header{
-        flex-basis:50vw;
-        max-width: 50%;
-        }
-
     .paragraph-header{font-size: 80%;}
+}
+
+
+/* landscape phone and tablet*/
+@media (min-width: 576px) and (max-width:992px)
+{
+    h1 {font-size: 150%;}
+
+    p{font-size: 70%;}
+
+    header{
+        margin-top:15%;
+        margin-bottom:5%;}
+
+    .paragraph-header{font-size: 120%;}
 }
