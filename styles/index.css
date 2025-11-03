@@ -25,7 +25,7 @@ html {
 h1 {
     font-family: 'Asset',sans-serif;
     color: var(--dark-green);
-    padding:2% 2% 2% 2%;
+    padding:2%;
     letter-spacing:-2%;
     font-size: 370%;
 }
@@ -147,7 +147,6 @@ a:active {
 {
   h1{
     font-size: 150%;
-    padding:18% 2% 2% 2%;
   }
 
   h2{
@@ -180,7 +179,6 @@ a:active {
 {
   h1{
     font-size: 250%;
-    padding:18% 2% 2% 2%;
   }
 
   h2{

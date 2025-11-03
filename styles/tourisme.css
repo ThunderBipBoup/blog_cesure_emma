@@ -33,6 +33,7 @@ header{
 
 
 h1 {
+    max-width:100%;
     font-family: 'Asset',sans-serif;
     color: var(--dark-green);
     padding:2% 2% 2% 2%;
@@ -46,9 +47,11 @@ h1 {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+    max-width:50%;
 }
 
 .paragraph-header{
+    max-width:100%;
     font-family: "Roboto Condensed", sans-serif;
     color:var(--light-black);
     font-size: 180%;
@@ -69,7 +72,6 @@ p{
     p{font-size: 60%;}
 
     header{
-        margin-top:15%;
         margin-bottom:5%;}
 
     .paragraph-header{font-size: 80%;}
@@ -84,7 +86,6 @@ p{
     p{font-size: 70%;}
 
     header{
-        margin-top:15%;
         margin-bottom:5%;}
 
     .paragraph-header{font-size: 120%;}
