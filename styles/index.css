@@ -113,16 +113,32 @@ a:active {
 }
 
 
-#timeline {
-  list-style: none;
-  margin: 50px 0 30px 120px;
-  padding-left: 30px;
-  border-left: 8px solid rgb(185, 38, 38);
-  li {
-    margin: 40px 0;
-    position: relative;
-  }
-  p {
-    margin: 0 0 15px;
-  }
+.photos_timeline{ 
+    width:100%;
+}
+
+.image{
+    flex-basis:50%;
+    border-left: 0.5rem solid var(--violet);
+    padding:0% 0% 0% 5%
+}
+
+.long_stay_circle {
+  left: 39.45%;
+  width: 1.5rem ;  
+  height: 1.5rem;
+  background:var(--dark-green);
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+}
+
+.short_stay_circle {
+  left: 39.45%;
+  width: 1.5rem ;  
+  height: 1.5rem;
+  background:var(--light-green);
+  border-radius: 50%;
+  display: block;
+  position: absolute;
 }

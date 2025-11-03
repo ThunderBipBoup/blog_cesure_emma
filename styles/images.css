@@ -35,46 +35,6 @@
     margin-bottom: 5%;
 }
 
-.long_stay_container .photos_timeline{
-    border-left: 0.5rem solid var(--dark-green);
-}
-
-.photos_timeline{
-    flex-basis:50%;
-    width:50%;
-    border-left: 0.5rem solid var(--violet);
-    padding:0% 0% 0% 5%
-}
-
-.circle {
-  top: 50%;
-  left: 40%;
-  width: 1rem ;  
-  height: 1rem;
-  background:var(--light-green);
-  border-radius: 50%;
-  display: block;
-  position: absolute;
-}
-
-
-#moncercle{
-  background:var(--light-green);
-  position:relative;
-  z-index:1;
-  border-radius:50%;
-  width:1rem;
-  height:1rem;
-}
-
-.photos_timeline::before {
-  background:var(--light-green);
-  position:relative;
-  z-index:1;
-  border-radius:50%;
-  width:1rem;
-  height:1rem;
-  position: absolute;}
 
 
   
