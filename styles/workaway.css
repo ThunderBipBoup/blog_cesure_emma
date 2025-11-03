@@ -99,6 +99,10 @@ h3 {
     font-size: 100%;
     }
 
+    p{
+        font-size: 60%;
+    }
+
     .paragraph-header{
     font-size: 80%;
     }
@@ -107,10 +111,10 @@ h3 {
         font-size: 60%;
     }
 
-    header{
+/*     header{
     flex-direction: column;
-    }
-    
+    } */
+
     .jour-container{
     flex-direction:column;
     }

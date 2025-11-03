@@ -39,7 +39,14 @@
 /*phone */
 @media (max-width: 576px)
 {
-  .photos{
+    .photos{
     max-height: 8rem;
-  }
+    }
+    .photos_container{
+    flex-wrap: wrap;
+    }
+
+    .ligne-violette{
+        max-width:100%;
+    }
 }

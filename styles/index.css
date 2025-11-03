@@ -125,37 +125,36 @@ a:active {
     padding:0% 0% 0% 5%
 }
 
-.long_stay_circle {
+.long_stay_circle,.short_stay_circle {
   left: 39.45%;
   width: 1.5rem ;  
   height: 1.5rem;
-  background:var(--dark-green);
   border-radius: 50%;
   display: block;
   position: absolute;
 }
 
 .short_stay_circle {
-  left: 39.45%;
-  width: 1.5rem ;  
-  height: 1.5rem;
   background:var(--light-green);
-  border-radius: 50%;
-  display: block;
-  position: absolute;
 }
 
-
+.long_stay_circle{
+  background:var(--dark-green);
+}
 
 /*phone */
 @media (max-width: 576px)
 {
   h1{
-    font-size: 200%;
+    font-size: 160%;
+  }
+
+  h2{
+    font-size: 120%;
   }
 
   p{
-    font-size:80%
+    font-size:70%
   }
 
   .place{
@@ -164,6 +163,10 @@ a:active {
 
   .date{
     font-size: 70%;
+  }
+  .short_stay_circle,.long_stay_circle {
+    width: 0.5rem ;  
+    height: 0.5rem;
   }
 
 }
