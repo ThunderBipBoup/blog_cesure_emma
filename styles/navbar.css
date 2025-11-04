@@ -82,13 +82,12 @@ a:active {
 }
 
 
-@media (min-width: 1200px)
+@media (min-width: 1600px)
 {
     #menu{
     font-size: 320%;
   }
   nav>a{
-    padding: 2%;
     font-size: 250%;
   }
   nav {

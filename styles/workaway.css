@@ -133,16 +133,18 @@ h3 {
 }
 
 
-@media (min-width: 1200px)
+@media (min-width: 1600px)
 {
     h1 {font-size: 350%;
-        padding-top:7%;}
+        padding-top:5%;}
 
     p{font-size: 120%;}
 
     .paragraph-header{font-size: 240%;}
 
-    h2{font-size:140%}
+    .anecdote{font-size: 140%;}
 
-    h3{font-size:120%}
+    h2{font-size:200%}
+
+    h3{font-size:160%}
 }

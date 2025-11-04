@@ -209,18 +209,25 @@ a:active {
 
 
 
-@media (min-width: 1200px)
+@media (min-width: 1600px)
 {
-    h1 {font-size: 350%;
-        padding-top:7%;}
+    h1 {font-size: 360%;}
 
     p{font-size: 120%;}
 
     .paragraph-header{font-size: 240%;}
 
-    h2{font-size:140%}
+    h2{font-size:200%}
 
     .place{font-size: 300%;}
 
     .date{font-size: 200%;}
+
+    .long_stay_circle,.short_stay_circle {
+    left: 39,25%;
+    width: 2rem ;  
+    height: 2rem;
+  }
+  
+  .image{border-left: 0.75rem solid var(--violet);}
 }
