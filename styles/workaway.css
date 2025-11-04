@@ -100,9 +100,7 @@ h3 {
 /*phone */
 @media (max-width: 576px)
 {
-    h1 {font-size: 100%;}
-
-    header{max-width: 100%;}
+    h1 {font-size: 80%;}
 
     h2{font-size:120%}
 
@@ -110,7 +108,7 @@ h3 {
 
     p{font-size: 60%;}
 
-    .paragraph-header{font-size: 80%;}
+    .paragraph-header{font-size: 60%;}
 
     .anecdote{font-size: 60%;}
 
@@ -121,7 +119,7 @@ h3 {
 /* landscape phone and tablet*/
 @media (min-width: 576px) and (max-width:992px)
 {
-    h1 {font-size: 200%;}
+    h1 {font-size: 180%;}
 
     h2{font-size:120%}
 
@@ -129,7 +127,7 @@ h3 {
 
     p{font-size: 70%;}
 
-    .paragraph-header{font-size: 140%;}
+    .paragraph-header{font-size: 100%;}
 
     .anecdote{font-size: 100%;}
 

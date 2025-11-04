@@ -15,8 +15,8 @@ nav {
     font-family: 'Spicy Rice',sans-serif;
     background-color: var(--light-green);
     color: var(--beige);
-    padding: 2%;
-    height : 15%;
+    padding: 1.5%;
+    height : 12%;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -55,11 +55,12 @@ a:active {
     font-weight: lighter;
   }
   nav>a{
+    padding: 2%;
     font-size: 60%;
     font-weight: lighter;
   }
   nav {
-    height:10%;
+    height:12%;
   }
 }
 

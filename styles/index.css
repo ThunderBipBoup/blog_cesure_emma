@@ -145,71 +145,64 @@ a:active {
 /*phone */
 @media (max-width: 576px)
 {
-  h1{
-    font-size: 150%;
-  }
+  h1{font-size: 150%;}
 
-  h2{
-    font-size: 120%;
-  }
+  h2{font-size: 120%;}
 
-  p{
-    font-size:70%
-  }
+  p{font-size:70%}
 
-  .place{
-    font-size: 100%;
-  }
+  .place{font-size: 100%;}
 
-  .date{
-    font-size: 70%;
-  }
+  .date{font-size: 70%;}
+
   .short_stay_circle,.long_stay_circle {
     width: 0.5rem ;  
     height: 0.5rem;
   }
 
-  .image{
-    border-left: 0.2rem solid var(--violet);
-  }
+  .image{border-left: 0.2rem solid var(--violet);}
 }
 
-/* landscape phone and tablet*/
-@media (min-width: 576px) and (max-width:992px)
+/* landscape phone*/
+@media (min-width: 576px) and (max-width:768px)
 {
-  h1{
-    font-size: 250%;
-  }
+  h1{font-size: 250%;}
 
-  h2{
-    font-size: 150%;
-  }
+  h2{font-size: 150%;}
 
-  p{
-    font-size:80%
-  }
+  p{font-size:80%}
 
-  .place{
-    font-size: 180%;
-  }
+  .place{font-size: 180%;}
 
-  .date{
-    font-size: 120%;
-  }
+  .date{font-size: 120%;}
+
   .short_stay_circle,.long_stay_circle {
     width: 0.7rem ;  
     height: 0.7rem;
   }
 
-  .image{
-    border-left: 0.3rem solid var(--violet);
-  }
+  .image{border-left: 0.3rem solid var(--violet);}
 }
 
 
 
-/* tablet
-@media (min-width: 768px)
+/* tablet */
+@media (min-width: 768px) and (max-width:992px)
+{
+  h1{font-size: 250%;}
 
-/*destop
-@media (min-width: 992px) */
+  h2{font-size: 150%;}
+
+  p{font-size:80%}
+
+  .place{font-size: 180%;}
+
+  .date{font-size: 120%;}
+
+  .short_stay_circle,.long_stay_circle {
+    width: 0.7rem ;  
+    height: 0.7rem;
+  }
+
+  .image{border-left: 0.3rem solid var(--violet);}
+}
