@@ -80,3 +80,18 @@ a:active {
     height: 8%;
   }
 }
+
+
+@media (min-width: 1200px)
+{
+    #menu{
+    font-size: 320%;
+  }
+  nav>a{
+    padding: 2%;
+    font-size: 250%;
+  }
+  nav {
+    height:15%;
+  }
+}

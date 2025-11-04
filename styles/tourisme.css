@@ -88,3 +88,14 @@ p{
 
     .paragraph-header{font-size: 140%;}
 }
+
+
+@media (min-width: 1200px)
+{
+    h1 {font-size: 350%;
+        padding-top:7%;}
+
+    p{font-size: 120%;}
+
+    .paragraph-header{font-size: 240%;}
+}
