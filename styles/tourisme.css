@@ -93,9 +93,9 @@ p{
 @media (min-width: 1600px)
 {
     h1 {font-size: 350%;
-        padding-top:7%;}
+        padding-top:5%;}
 
-    p{font-size: 120%;}
+    p{font-size: 140%;}
 
     .paragraph-header{font-size: 240%;}
 }
