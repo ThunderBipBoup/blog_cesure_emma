@@ -16,6 +16,7 @@
 
 .photo_header{
     /* position:relative; */
+    object-fit: cover;
     max-width:50%;
     min-width: 30%;
     max-height: 100vh;
