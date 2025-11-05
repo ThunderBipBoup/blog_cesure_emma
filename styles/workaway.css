@@ -90,6 +90,21 @@ p{
 }
 
 
+p>a{
+    color: var(--dark-green);
+    text-decoration:underline;
+    font-weight: 600;
+    font-size: large;
+}
+
+.paragraph-header>a{
+color: var(--dark-green);
+}
+
+.paragraph-header>a{
+color: var(--dark-green);
+}
+
 h3 {
     font-family: "Purple Purse", serif;
     color: var(--light-green);

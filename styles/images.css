@@ -24,6 +24,8 @@
 .photos{
     max-height: 20rem;
     margin-bottom: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .photos_container{

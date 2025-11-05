@@ -115,6 +115,13 @@ a:active {
 }
 
 
+p>a{
+    color: var(--dark-green);
+    text-decoration:underline;
+    font-weight: 600;
+    font-size: large;
+}
+
 .photos_timeline{ 
     width:100%;
 }
@@ -213,7 +220,7 @@ a:active {
 {
     h1 {font-size: 360%;}
 
-    p{font-size: 120%;}
+    p{font-size: 140%;}
 
     .paragraph-header{font-size: 240%;}
 
