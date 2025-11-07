@@ -72,3 +72,9 @@
     max-height: 25rem;
     }
 }
+
+#qui_suis_je{
+    display:flex;
+    flex-direction: row-reverse;
+    padding:2%;
+}
